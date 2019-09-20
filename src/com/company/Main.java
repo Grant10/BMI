@@ -18,7 +18,7 @@ public class Main {
         System.out.print("Next what is your wheight in pounds");
         pounds = keyboard.nextInt();
         kilograms = pounds*0.453592;
-     BMI = kilograms/meters;
+     BMI = kilograms/(meters*meters);
      System.out.println( BMI+ " This is your BMI hope you injoyed hearing it");
     }
 }
