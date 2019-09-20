@@ -14,11 +14,11 @@ public class Main {
 	keyboard = new Scanner(System.in);
 	System.out.print("Hi today I am going to claculate your BMI, so what is your heght (inches only)");
 	inches = keyboard.nextInt();
-	meters = inches*0.254;
+	meters = inches*0.0254;
         System.out.print("Next what is your wheight in pounds");
         pounds = keyboard.nextInt();
         kilograms = pounds*0.453592;
      BMI = kilograms/meters;
-     
+     System.out.println( BMI+ " This is your BMI hope you injoyed hearing it");
     }
 }
